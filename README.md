@@ -39,5 +39,19 @@
 - and when thier are thgiht constraints on hardware our model can reduce the size of the users model by 70% while retaaining  accruacy within a 0.001% margin and without increasing latency at all
 
 ## How It Works
-   
-    - 
+- We first recieve data from the usser and have the file names and configarations of the user in a config json file
+- we then use the json fole to acces the userrs model and test data they have sent
+- then we pass the model and test daata through the model allong with their prefrences and then our model compresses it
+- we trainned our model on variouse compression algorithms adn their advantages and disadvantages and it figures out the best way to compress the model bassed on them and then does it
+- the following are some of the algorithms we trainned it on
+  - Dynamic Quantanization
+  - Weight Sharring
+  - Unstructurred Pruning
+  -  Layer Dropping
+  -  JIT Fussion
+  - Etc
+- Ussing these the model understands the best way to compress it so it can either improve accuracy latency and size
+- 
+# Advantaages
+- All algorithms ussed are Post training so their is no need for the usser to trian the algorithm again and it helps us stream line the process
+- 
