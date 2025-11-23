@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme styles */
+.light {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+  color: rgb(15 23 42 / var(--tw-text-opacity));
+}
+
+.light .bg-slate-900 {
+  background-color: rgb(248 250 252) !important;
+}
+
+.light .text-white {
+  color: rgb(15 23 42) !important;
+}
+
+.light .text-gray-300 {
+  color: rgb(71 85 105) !important;
+}
+
+.light .text-gray-400 {
+  color: rgb(100 116 139) !important;
+}
+
+.light .border-purple-500\/20 {
+  border-color: rgb(168 85 247 / 0.2) !important;
+}
+
+/* Animation classes */
+@keyframes slide-in-from-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-in {
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+}
+
+.slide-in-from-right {
+  animation-name: slide-in-from-right;
+}
+
+/* Line clamp utility */
+.line-clamp-1 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
