@@ -1,6 +1,7 @@
 # KompressAI
 
-##Problem Statement
+## Problem Statement
+
 -Deploying large-scale AI models on low-power or embedded devices is a major challenge.
 
 - These models require high computational power and large memory capacity.
