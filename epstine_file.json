@@ -1,0 +1,9 @@
+{
+    "project_name": "Hosing data model",
+    "ai_model_name": "iris_model.pth",
+    "dataset_bundle": "iris_features.csv",
+    "optimization_level": "latency",
+    "criterion": "classification",
+    "device": "MCU",
+    "compressed_model": "compressed_usser_model.pth"
+}
