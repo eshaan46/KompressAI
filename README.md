@@ -52,6 +52,16 @@
   - Etc
 - Ussing these the model understands the best way to compress it so it can either improve accuracy latency and size
 - 
-# Advantaages
+## Advantaages
 - All algorithms ussed are Post training so their is no need for the usser to trian the algorithm again and it helps us stream line the process
-- 
+- Adaptive Model Scaling: The system performs real-time hardware profiling and automatically adjusts model size—compressing for constrained devices and expanding architectures on high-performance hardware—to maximize accuracy, throughput, and resource utilization in any deployment environment.
+## TechStack
+- Torch
+- padnas
+- numpy
+- json
+- sci-kit-learn
+
+## Disclosure
+- We ussed chatgpt to make the datatset and trouble shoot the code
+- we ussed supabse and pytorch to build our tool
